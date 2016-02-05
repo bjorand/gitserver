@@ -121,6 +121,9 @@ Ubuntu Requirements
 - libssl-dev (pyopenssl requires)
 
 
+MacOsx Requirements
+====================
 
+- env LDFLAGS="-L$(brew --prefix openssl)/lib" CFLAGS="-I$(brew --prefix openssl)/include"
 
 
